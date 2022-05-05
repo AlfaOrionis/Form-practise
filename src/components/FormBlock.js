@@ -153,7 +153,7 @@ const FormBlock = () => {
           <label>Preparation time</label>
           <input
             type="time"
-            step={2}
+            step={1}
             defaultValue="00:00:00"
             onChange={PrepTimeHandler}
           />
