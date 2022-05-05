@@ -1,0 +1,43 @@
+.form_container {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.form_container div {
+    margin-bottom: 15px;
+}
+
+.form_container input, .form_container select {
+    display: block;
+    width: 100%;
+    margin: 5px 0; 
+    padding: 5px 0 5px 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.form_container input:focus, .form_container select:focus {
+    box-shadow: 0 0 5px blue;
+    outline: none;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding: 5px 15px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.invalid_input {
+    color: red;
+    font-size: .9rem;
+    margin: 5px 0 15px 0;
+}
